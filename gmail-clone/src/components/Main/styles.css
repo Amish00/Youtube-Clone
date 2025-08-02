@@ -1,0 +1,16 @@
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 90vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.videothumb__thumbnail {
+    width: inherit;
+    height: 137px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

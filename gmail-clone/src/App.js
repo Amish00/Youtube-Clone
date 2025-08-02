@@ -1,11 +1,15 @@
-import Header from "./components/Header/Header";
-
-
+import {Header, Main, Sidebar} from "./components";
 
 function App() {
   return (
-    <div className="app">
+    <div className="home">
       <Header />
+
+      <div className="app">
+        <Sidebar />
+        <Main />
+      </div>
+      
     </div>
   );
 }
