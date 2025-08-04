@@ -6,6 +6,10 @@ const Main = () => {
   return (
     <div className='main'>
       <VideoThumb />
+      <VideoThumb />
+      <VideoThumb />
+      <VideoThumb />
+      <VideoThumb />
     </div>
   )
 }

@@ -10,7 +10,44 @@
 
 .videothumb__thumbnail {
     width: inherit;
-    height: 137px;
+    height: 175px;
     margin-bottom: 10px;
     border-radius: 10px;
+    object-fit: cover;
+}
+
+.videothumb__details {
+    display: flex;
+}
+
+.videothumb {
+    margin: 20px;
+    margin-right: 0;
+    width: 290px;
+    height: 310px;
+    cursor: pointer;
+}
+
+.videothumb__title {
+    font-size: 1rem;
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.videothumb__channel {
+    margin-left: 10px;
+}
+
+.videothumb__texts{
+    margin-top: 5px;
+}
+
+.videothumb__text {
+    font-size: 15px;
+    margin: 4px 0;
+    color: #aaaaaa !important;
 }

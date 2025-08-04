@@ -12,12 +12,9 @@ body {
   padding: 0;
 }
 
-.app{
-  display: flex;
-  
-}
 
 .home{
   color: #fff;
   background-color: #181818;
+  display: flex;
 }
